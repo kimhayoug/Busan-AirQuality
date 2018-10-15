@@ -12,6 +12,7 @@
 		FDAF304B21745E0D00538865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAF304921745E0D00538865 /* Main.storyboard */; };
 		FDAF304D21745E1400538865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAF304C21745E1400538865 /* Assets.xcassets */; };
 		FDAF305021745E1400538865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAF304E21745E1400538865 /* LaunchScreen.storyboard */; };
+		FDAF30582174673B00538865 /* AirQualityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAF30572174673B00538865 /* AirQualityData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FDAF304C21745E1400538865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDAF304F21745E1400538865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDAF305121745E1400538865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDAF30572174673B00538865 /* AirQualityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FDAF304C21745E1400538865 /* Assets.xcassets */,
 				FDAF304E21745E1400538865 /* LaunchScreen.storyboard */,
 				FDAF305121745E1400538865 /* Info.plist */,
+				FDAF30572174673B00538865 /* AirQualityData.swift */,
 			);
 			path = "Busan-AirQuality";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDAF30582174673B00538865 /* AirQualityData.swift in Sources */,
 				FDAF304821745E0D00538865 /* ViewController.swift in Sources */,
 				FDAF304621745E0D00538865 /* AppDelegate.swift in Sources */,
 			);
